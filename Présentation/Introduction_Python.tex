@@ -1,0 +1,206 @@
+%\documentclass[ignorenonframetext, compress, 9pt, xcolor=svgnames]{beamer} 
+\input{Config_diapos}
+\usepackage{color}
+\usepackage{tikz}
+
+
+
+\usepackage{enumerate}   
+%\usepackage{enumitem}
+
+%\setbeamersize{text margin left=1.5em,text margin right=1.5em} 
+%\setbeamersize{text margin left=1.2cm,text margin right=1.2cm} 
+\setbeamersize{text margin left=1.5em,text margin right=1.5em} 
+%\usepackage{xr}
+%\externaldocument{Econometrie1_UGA_P2e}
+  \usepackage{eso-pic}
+%\newcommand\AtPagemyUpperLeft[1]{\AtPageLowerLeft{%
+%\put(\LenToUnit{0.9\paperwidth},\LenToUnit{0.85\paperheight}){#1}}}
+%\AddToShipoutPictureFG{
+ % \AtPagemyUpperLeft{{\includegraphics[width=1.1cm,keepaspectratio]{logoUGA2020.pdf}}}
+%}%
+
+%\setbeamercolor{title}{fg=black}
+%\setbeamercolor{frametitle}{fg=black}
+%\setbeamercolor{section in head/foot}{fg=black}
+%\setbeamercolor{author in head/foot}{bg=Brown}
+%\setbeamercolor{date in head/foot}{fg=Brown}
+\setbeamertemplate{section page}
+{
+    \begin{centering}
+    \begin{beamercolorbox}[sep=11pt,center]{part title}
+    \usebeamerfont{section title}\insertsection\par
+    \end{beamercolorbox}
+    \end{centering}
+}
+%\titlegraphic{\includegraphics[width=1cm]{logoUGA2020.pdf}}
+\title[]{ \textbf{ Introduction à Python pour l'\'Economie Appliquée}}
+\subtitle{Présentation du cours}
+\date{\today}
+\author{Michal W. Urdanivia\inst{*}}
+\institute{\inst{*}UGA, Facult\'e d'\'Economie, GAEL, \\e-mail: \href{mailto:michal.wong-urdanivia@univ-grenoble-alpes.fr}{michal.wong-urdanivia@univ-grenoble-alpes.fr}}
+
+%\titlegraphic{\includegraphics[width=1cm]{logoUGA2020.pdf}
+%}
+
+\begin{document}
+%%% TIKZ STUFF
+\usetikzlibrary{positioning}
+\usetikzlibrary{snakes}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{matrix,shapes,arrows,fit,tikzmark}
+\usetikzlibrary{shapes}
+\tikzset{   
+        every picture/.style={remember picture,baseline},
+        every node/.style={anchor=base,align=center,outer sep=1.5pt},
+        every path/.style={thick},
+        }
+\newcommand\marktopleft[1]{%
+    \tikz[overlay,remember picture] 
+        \node (marker-#1-a) at (-.3em,.3em) {};%
+}
+\newcommand\markbottomright[2]{%
+    \tikz[overlay,remember picture] 
+        \node (marker-#1-b) at (0em,0em) {};%
+}
+\tikzstyle{every picture}+=[remember picture] 
+\tikzstyle{mybox} =[draw=black, very thick, rectangle, inner sep=10pt, inner ysep=20pt]
+\tikzstyle{fancytitle} =[draw=black,fill=red, text=white]
+\tikzstyle{observed}=[draw,circle,fill=gray!50]
+
+
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+%\begin{frame}
+%\frametitle{Contenu}
+%\tableofcontents[pausesections, pausesubsections]
+%\end{frame}
+
+%\section{Qu'est-ce que l’économétrie ? A quoi (à qui) ça sert ?}
+%\frame{\sectionpage}
+%\begin{frame}
+%  \tableofcontents  
+%\end{frame}
+
+\section{Objectifs}
+\frame{\sectionpage}
+
+\begin{frame}[allowframebreaks]{Python}
+\begin{enumerate}
+    \item Familiarité avec la programmation avec le langage Python.
+    \begin{enumerate}[(i)]
+        \item Concepts fondamentaux autour desquelles s'organise le langage.
+        \item Capacité à comprendre un programme écrit en Python.
+        \item Modules/bibliothèques populaires: numpy, scipy, pandas, statmodels, scikit-learn, matplotlib, \ldots
+    \end{enumerate}
+    \item Application en économie
+    \begin{enumerate}[(i)]
+        \item Analyse numérique de certains modèles classiques de l'économie(Microéconomie, Macroéconomie)
+        \item Analyse empirique de certaines questions en économie(e.g., offre de travail, déterminants des salaires, \ldots)
+    \end{enumerate}
+\end{enumerate}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{\'Economie appliquée}
+    \begin{itemize}
+        \item Pouvoir utiliser les outils du cours dans d'autres projets(cours en économie, économétrie, mémoires, \ldots)
+        \item \underline{\textbf{Remarque:}} bien que les applications fassent souvent référence à la théorie économique,
+         ce cours n'est pas un cours de théorie.
+         \item Pouvoir s'orienter dans l'ensemble très riche de références pour développer sa maîtrise du langage Python, 
+         et d'autres langages utilisés dans le calcul scientifique(R, Julia, \ldots)
+    \end{itemize}
+\end{frame}
+
+\section{Méthodologie}
+\frame{\sectionpage}
+
+\begin{frame}[allowframebreaks]{Apprentissage par la pratique et autoformation}
+    \begin{itemize}
+        \item Vous avez besoin de programmer pour apprendre à programmer:
+        \begin{itemize}
+            \item comprendre les programmes/exemples du cours en les executant,
+            \item comprendre les erreurs qui peuvent être rencontrées.
+        \end{itemize}
+        \item Beaucoup de concepts/outils utilisés ne sont pas étudiés avec tout le détail qui leur est accordé 
+        par d'autres sources/références.
+        \begin{itemize}
+            \item Vous devrez(savoir) les consulter dans certains cas où cela vous sera nécessaire.
+            \item Certains exercices seront repris d'autres sources.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Matériel}
+    \begin{itemize}
+        \item Notebooks
+        \begin{itemize}
+            \item toutes les séances de cours se feront sous la forme de Notebooks Jupyter(voir indications sur Moodle),
+            \item disponibles ici \url{}.
+        \end{itemize} 
+        \item  Recommandé: faire une installation sur un poste personnel.
+    \end{itemize}
+\end{frame}
+
+%\begin{frame}[allowframebreaks]{Travail}
+%\begin{itemize}
+ %   \item Le principal travail demandé pour maîtriser les poins traités est de refaire
+  %  \item Il pourra être fait par groupes de deux personnes maximum
+   % \item Les correction ne se feront pas en séance mais mises sur le site du cours
+   % \item Néanmoins il arrivera régulièrement qu'il soit demandé à certains de les corriger en séance.
+%\end{itemize}
+%\end{frame}
+
+\section{Plan et références}
+\frame{\sectionpage}
+
+\begin{frame}[allowframebreaks]{Thèmes}
+\begin{enumerate}
+    \item Introduction
+    \item Bases: objets, types, boucles, fonctions
+    \item Bases: optimizer, affichage, représentation graphique
+    \item Bases: nombres aléatoires, simulation,
+    \item Bases: workflow, débogage
+    \item Bases: résumé, et vue d'ensemble
+    \item Données: introduction à la bibliothèque pandas
+    \item Données: applications 
+    \item Algorithmes: introduction
+    \item Algorithmes: résoudre des équation
+    \item Algorithmes: optimization numérique
+    \item Développements/thèmes avancés.
+\end{enumerate}
+
+
+\underline{\textbf{Remarque:}} le plan est susceptible d'être modifié au fur et à mesure 
+de l'avancée du cours, et/ou selon les/vos besoins/intérêts.
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Références}
+    \begin{itemize}
+        \item Il existe beaucoup de références pour apprendre à programmer en Python,
+        \item Aucune ne vous donnera une connaissance complète du langage
+        \item Elles se différencient souvent selon les publics et spécialités
+         visées(sciences de la donné, économie, informatique, \ldots)
+        \item Le cours s'appuie sur certaines d'entre elles qui vous seront indiquées dans les séances 
+        et en fonction des thèmes pour lesquelles elles sont mobilisées. 
+        \framebreak
+        \item Quelques unes qui reviendront souvent:
+        \begin{enumerate}
+            \item QuantEcon: \url{https://quantecon.org/}
+            \item Documentation spécifique de Python: \url{https://docs.python.org/3/library/}
+            \item Les sites de documentation des principales bibliothèques(numpy, scipy, pandas, \ldots)
+            \item Python course: \url{https://www.python-course.eu/python3_course.php}
+        \end{enumerate}
+    \end{itemize}
+\end{frame}
+%\begin{frame}[allowframebreaks]{References}
+%\bibliographystyle{jpe}
+%\bibliography{Biblio2}
+
+%\end{frame}
+\end{document}

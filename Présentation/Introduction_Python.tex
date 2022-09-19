@@ -1,13 +1,20 @@
 %\documentclass[ignorenonframetext, compress, 9pt, xcolor=svgnames]{beamer} 
 \input{Config_diapos}
-\usepackage{color}
+\usepackage[svgnames]{xcolor}
 \usepackage{tikz}
-
-
-
+\usetikzlibrary{shapes.geometric, arrows}
 \usepackage{enumerate}   
-%\usepackage{enumitem}
-
+\usepackage{multirow}
+\usepackage{txfonts}
+\usepackage{mathrsfs}
+\usepackage{pgfplots}
+\pgfplotsset{compat = newest}
+\usetikzlibrary{positioning, arrows.meta}
+\usepgfplotslibrary{fillbetween}
+\newcommand{\A}{(0,0) ++(135:2) circle (2)}
+\newcommand{\B}{(0,0) ++(45:2) circle (2)}
+\DeclareMathOperator{\C}{C}
+\DeclareMathOperator{\util}{u}
 %\setbeamersize{text margin left=1.5em,text margin right=1.5em} 
 %\setbeamersize{text margin left=1.2cm,text margin right=1.2cm} 
 \setbeamersize{text margin left=1.5em,text margin right=1.5em} 
@@ -25,14 +32,25 @@
 %\setbeamercolor{section in head/foot}{fg=black}
 %\setbeamercolor{author in head/foot}{bg=Brown}
 %\setbeamercolor{date in head/foot}{fg=Brown}
+\AtBeginSection[]
+  {
+    \ifnum \value{framenumber}>1
+      \begin{frame}<beamer>
+      \frametitle{Plan}
+      \tableofcontents[currentsection]
+      \end{frame}
+    \else
+    \fi
+  }
 \setbeamertemplate{section page}
 {
     \begin{centering}
     \begin{beamercolorbox}[sep=11pt,center]{part title}
-    \usebeamerfont{section title}\insertsection\par
+    \usebeamerfont{section title}\thesection.~\insertsection\par
     \end{beamercolorbox}
     \end{centering}
 }
+
 %\titlegraphic{\includegraphics[width=1cm]{logoUGA2020.pdf}}
 \title[]{ \textbf{ Introduction à Python pour l'\'Economie Appliquée}}
 \subtitle{Présentation du cours}
@@ -42,7 +60,6 @@
 
 %\titlegraphic{\includegraphics[width=1cm]{logoUGA2020.pdf}
 %}
-
 \begin{document}
 %%% TIKZ STUFF
 \usetikzlibrary{positioning}
@@ -76,7 +93,9 @@
 \begin{frame}
 \titlepage
 \end{frame}
-
+\begin{frame}{Plan}
+ \tableofcontents
+    \end{frame}
 %\begin{frame}
 %\frametitle{Contenu}
 %\tableofcontents[pausesections, pausesubsections]

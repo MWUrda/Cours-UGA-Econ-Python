@@ -1,7 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1663579677 "/Users/michalurdanivia/Documents/GitHub/Cours-UGA-Econ-Python/Présentation/Introduction_Python.tex" "/Users/michalurdanivia/Documents/GitHub/Cours-UGA-Econ-Python/Présentation/Introduction_Python.pdf" "Introduction_Python" 1663579679
+["pdflatex"] 1663579677 "/Users/michalurdanivia/Documents/GitHub/Cours-UGA-Econ-Python/Présentation/Introduction_Python.tex" "/Users/michalurdanivia/Documents/GitHub/Cours-UGA-Econ-Python/Présentation/Introduction_Python.pdf" "Introduction_Python" 1663684165
   "/Users/michalurdanivia/Documents/GitHub/Cours-UGA-Econ-Python/Présentation/Introduction_Python.aux" 1663579679 3920 341d411b07c25fa194300bd971599f9a ""
   "/Users/michalurdanivia/Documents/GitHub/Cours-UGA-Econ-Python/Présentation/Introduction_Python.tex" 1663579461 8584 730f57d18aa7ac94a71fc149d7b983d3 ""
+  "/Users/michalurdanivia/Documents/GitHub/Cours-UGA-Econ-Python/Présentation/Introduction_Python.tex" 1663579461 8584 730f57d18aa7ac94a71fc149d7b983d3 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1480098696 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
@@ -327,14 +328,16 @@
   "Introduction_Python.tex" 1663579461 8584 730f57d18aa7ac94a71fc149d7b983d3 ""
   "Introduction_Python.toc" 1663579679 197 f7af289ba54e42c846c05595b19e2f6c ""
   (generated)
-  "Introduction_Python.snm"
-  "Introduction_Python.toc"
-  "Introduction_Python.aux"
-  "Introduction_Python.pdf"
-  "Introduction_Python.nav"
   "Introduction_Python.log"
-  "Introduction_Python.out"
-  "/Volumes/GoogleDrive/Mon Drive/Cours-UGA-Econ-Python/Notebooks/Présentation/Introduction_Python.log"
   "/Users/michalurdanivia/Documents/GitHub/Cours-UGA-Econ-Python/Présentation/Introduction_Python.log"
+  "/Users/michalurdanivia/Documents/GitHub/Cours-UGA-Econ-Python/Présentation/Introduction_Python.log"
+  "/Users/michalurdanivia/Documents/GitHub/Cours-UGA-Econ-Python/Présentation/Introduction_Python.pdf"
+  "Introduction_Python.out"
+  "Introduction_Python.pdf"
   "/Users/michalurdanivia/Documents/GitHub/Cours-UGA-Econ-Python/Présentation/Introduction_Python.pdf"
+  "Introduction_Python.aux"
+  "Introduction_Python.nav"
+  "Introduction_Python.snm"
+  "/Volumes/GoogleDrive/Mon Drive/Cours-UGA-Econ-Python/Notebooks/Présentation/Introduction_Python.log"
+  "Introduction_Python.toc"
   "/Volumes/GoogleDrive/Mon Drive/Cours-UGA-Econ-Python/Notebooks/Présentation/Introduction_Python.pdf"

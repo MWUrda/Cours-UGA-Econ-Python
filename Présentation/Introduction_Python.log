@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.10)  19 SEP 2022 11:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.10)  7 FEB 2023 14:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -97,8 +97,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 
 Class beamer Warning: This option is obsolete. Use beamer option ``show notes'' instead. on input line 336.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/extsizes/size9.clo
-File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
@@ -557,7 +557,7 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box56
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 41.
+Package hyperref Info: Option `colorlinks' set `true' on input line 42.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip60
@@ -1041,7 +1041,7 @@ Package babel Info: Making ? an active character on input line 418.
 \FBfnindent=\skip70
 ))) (/usr/local/texlive/2018/texmf-dist/tex/latex/carlisle/scalefnt.sty)
 Package french.ldf Info: No list customisation for the beamer class,
-(french.ldf)             reported on input line 52.
+(french.ldf)             reported on input line 53.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
 \MT@toks=\toks48
@@ -1436,14 +1436,10 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \ResultBoxRule=\dimen322
 \c@ltxexample=\count374
 )
-\c@propriete=\count375
-\c@exemple=\count376
-\c@theoreme=\count377
-\c@proposition=\count378
-\c@corollaire=\count379
-\c@assumption=\count380
-\c@hypothese=\count381
-\c@condition=\count382
+\c@theoreme=\count375
+\c@proposition=\count376
+\c@corollaire=\count377
+\c@hypothese=\count378
  (/usr/local/texlive/2018/texmf-dist/tex/latex/bbm-macros/bbm.sty
 Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
 LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
@@ -1451,9 +1447,14 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
 )
-\c@definition_fr=\count383
-\c@theorem_fr=\count384
-\c@remark_fr=\count385
+\c@condition=\count379
+\c@assumption=\count380
+\c@definition_fr=\count381
+\c@theorem_fr=\count382
+\c@remark_fr=\count383
+\c@exemple=\count384
+\c@propriete=\count385
+\c@remark=\count386
 ) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
  (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
@@ -1559,32 +1560,32 @@ Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
 \t@pgfplots@tokb=\toks58
 \t@pgfplots@tokc=\toks59
 \pgfplots@tmpa=\dimen324
-\c@pgfplots@coordindex=\count386
-\c@pgfplots@scanlineindex=\count387
+\c@pgfplots@coordindex=\count387
+\c@pgfplots@scanlineindex=\count388
  (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary arithmetics for your pgf version...
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgflibraryfpu.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count388
+\c@pgfmathroundto@lastzeros=\count389
 ) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_leq.code.tex)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count389
+\c@pgfplotsarray@tmp=\count390
 ) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count390
+\c@pgfplotstable@counta=\count391
 \t@pgfplotstable@a=\toks60
 ) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count391
+\c@pgfplotslibrarysurf@no=\count392
  (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen325
 \pgfdecoratedremainingdistance=\dimen326
 \pgfdecoratedinputsegmentcompleteddistance=\dimen327
 \pgfdecoratedinputsegmentremainingdistance=\dimen328
 \pgf@decorate@distancetomove=\dimen329
-\pgf@decorate@repeatstate=\count392
+\pgf@decorate@repeatstate=\count393
 \pgfdecorationsegmentamplitude=\dimen330
 \pgfdecorationsegmentlength=\dimen331
 )
 \tikz@lib@dec@box=\box92
 ) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count393
+\pgfplots@numplots=\count394
 \pgfplots@xmin@reg=\dimen332
 \pgfplots@xmax@reg=\dimen333
 \pgfplots@ymin@reg=\dimen334
@@ -1604,54 +1605,54 @@ File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
 \pgfarrowwidth=\dimen340
 \pgfarrowlinewidth=\dimen341
 ) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.fillbetween.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibraryfillbetween.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex
-\pgf@intersect@solutions=\count394
-)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrarydecorations.softclip.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfcontrib/pgflibraryfillbetween.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgflibraryintersections.code.tex
 \pgf@intersect@solutions=\count395
+)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrarydecorations.softclip.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfcontrib/pgflibraryfillbetween.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgflibraryintersections.code.tex
+\pgf@intersect@solutions=\count396
 )))) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.decorations.softclip.code.tex)) (/Users/michalurdanivia/Documents/GitHub/Cours-UGA-Econ-Python/Présentation/Introduction_Python.aux)
 \openout1 = `Introduction_Python.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 63.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 63.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 66.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 66.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 63.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 63.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 66.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 66.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 63.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 63.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 66.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 66.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 63.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 63.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 66.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 66.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 63.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 63.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 66.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 66.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Try loading font information for T1+txss on input line 63.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Try loading font information for T1+txss on input line 66.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/t1txss.fd
 File: t1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 63.
+(Font)              scaled to size 9.49997pt on input line 66.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1672,12 +1673,12 @@ LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
-* \topskip=9.0pt
+* \topskip=10.0pt
 * \footskip=14.22636pt
-* \marginparwidth=4.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=3.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=8.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1689,16 +1690,16 @@ LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count396
+\scratchcounter=\count397
 \scratchdimen=\dimen342
 \scratchbox=\box93
-\nofMPsegments=\count397
-\nofMParguments=\count398
+\nofMPsegments=\count398
+\nofMParguments=\count399
 \everyMPshowfont=\toks61
-\MPscratchCnt=\count399
+\MPscratchCnt=\count400
 \MPscratchDim=\dimen343
-\MPnumerator=\count400
-\makeMPintoPDFobject=\count401
+\MPnumerator=\count401
+\makeMPintoPDFobject=\count402
 \everyMPtoPDFconversion=\toks62
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1713,63 +1714,63 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box94
-Package hyperref Info: Link coloring ON on input line 63.
+Package hyperref Info: Link coloring ON on input line 66.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count402
+\c@section@level=\count403
 )
-LaTeX Info: Redefining \ref on input line 63.
-LaTeX Info: Redefining \pageref on input line 63.
-LaTeX Info: Redefining \nameref on input line 63.
+LaTeX Info: Redefining \ref on input line 66.
+LaTeX Info: Redefining \pageref on input line 66.
+LaTeX Info: Redefining \nameref on input line 66.
  (/Users/michalurdanivia/Documents/GitHub/Cours-UGA-Econ-Python/Présentation/Introduction_Python.out) (/Users/michalurdanivia/Documents/GitHub/Cours-UGA-Econ-Python/Présentation/Introduction_Python.out)
 \@outlinefile=\write6
 \openout6 = `Introduction_Python.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/txr/m/n --> OT1/cmss/m/n on input line 63.
+(Font)                  OT1/txr/m/n --> OT1/cmss/m/n on input line 66.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/txr/bx/n --> OT1/cmss/bx/n on input line 63.
+(Font)                  OT1/txr/bx/n --> OT1/cmss/bx/n on input line 66.
 \symnumbers=\mathgroup11
 \sympureletters=\mathgroup12
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/txr/m/n on input line 63.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 63.
+(Font)                  OT1/cmss/m/n --> T1/txr/m/n on input line 66.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/txr/bx/n --> T1/txss/bx/n on input line 63.
+(Font)                  OT1/txr/bx/n --> T1/txss/bx/n on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/txr/bx/n --> T1/txss/bx/n on input line 63.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 63.
+(Font)                  OT1/txr/bx/n --> T1/txss/bx/n on input line 66.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/txss/m/n --> T1/txss/m/n on input line 63.
+(Font)                  OT1/txss/m/n --> T1/txss/m/n on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/txss/b/n --> T1/txss/m/n on input line 63.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 63.
+(Font)                  OT1/txss/b/n --> T1/txss/m/n on input line 66.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/txr/m/it --> T1/txss/m/it on input line 63.
+(Font)                  OT1/txr/m/it --> T1/txss/m/it on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/txr/bx/it --> T1/txss/m/it on input line 63.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 63.
+(Font)                  OT1/txr/bx/it --> T1/txss/m/it on input line 66.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/txtt/m/n --> T1/txtt/m/n on input line 63.
+(Font)                  OT1/txtt/m/n --> T1/txtt/m/n on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/txtt/b/n --> T1/txtt/m/n on input line 63.
+(Font)                  OT1/txtt/b/n --> T1/txtt/m/n on input line 66.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/txss/m/n --> T1/txss/bx/n on input line 63.
+(Font)                  T1/txss/m/n --> T1/txss/bx/n on input line 66.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/txss/m/it --> T1/txss/bx/it on input line 63.
+(Font)                  T1/txss/m/it --> T1/txss/bx/it on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/txr/bx/n on input line 63.
+(Font)                  OT1/cmss/bx/n --> T1/txr/bx/n on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/txss/bx/n --> T1/txss/bx/n on input line 63.
+(Font)                  T1/txss/bx/n --> T1/txss/bx/n on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/txss/m/n --> T1/txss/bx/n on input line 63.
+(Font)                  T1/txss/m/n --> T1/txss/bx/n on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/txss/m/it --> T1/txss/bx/it on input line 63.
+(Font)                  T1/txss/m/it --> T1/txss/bx/it on input line 66.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/txtt/m/n --> T1/txtt/bx/n on input line 63.
+(Font)                  T1/txtt/m/n --> T1/txtt/bx/n on input line 66.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -1789,16 +1790,16 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-\c@lstlisting=\count403
-LaTeX Info: Redefining \degres on input line 63.
-LaTeX Info: Redefining \dots on input line 63.
+\c@lstlisting=\count404
+LaTeX Info: Redefining \degres on input line 66.
+LaTeX Info: Redefining \dots on input line 66.
 
 
 Package french.ldf Warning: Please load the "listings" package
-(french.ldf)                AFTER babel/french; reported on input line 63.
+(french.ldf)                AFTER babel/french; reported on input line 66.
 
-LaTeX Info: Redefining \up on input line 63.
-LaTeX Info: Redefining \microtypecontext on input line 63.
+LaTeX Info: Redefining \up on input line 66.
+LaTeX Info: Redefining \microtypecontext on input line 66.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1819,59 +1820,59 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 
 (/Users/michalurdanivia/Documents/GitHub/Cours-UGA-Econ-Python/Présentation/Introduction_Python.nav)
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 63.
+(Font)              scaled to size 4.74998pt on input line 66.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 95.
+(Font)              scaled to size 13.67995pt on input line 99.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 10.40245pt on input line 95.
+(Font)              scaled to size 13.67995pt on input line 99.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 8.54997pt on input line 95.
+(Font)              scaled to size 9.49997pt on input line 99.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for U+txsya on input line 95.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 99.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 95.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 99.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 95.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 99.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 95.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 99.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 95.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 99.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 95.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 99.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 95.
-LaTeX Font Info:    Font shape `T1/txss/m/it' in size <9> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 95.
+(Font)              scaled to size 6.64998pt on input line 99.
+LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 99.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 8.54997pt on input line 95.
-LaTeX Font Info:    Font shape `T1/txss/m/it' in size <6> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 95.
+(Font)              scaled to size 9.49997pt on input line 99.
+LaTeX Font Info:    Font shape `T1/txss/m/it' in size <7> not available
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 99.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 5.69998pt on input line 95.
+(Font)              scaled to size 6.64998pt on input line 99.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <5> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 95.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 99.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 4.74998pt on input line 95.
+(Font)              scaled to size 4.74998pt on input line 99.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 3.79999pt on input line 95.
+(Font)              scaled to size 3.79999pt on input line 99.
  [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/michalurdanivia/Documents/GitHub/Cours-UGA-Econ-Python/Présentation/Introduction_Python.toc) [2
@@ -1882,7 +1883,7 @@ LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 127.
+(Font)              scaled to size 8.54997pt on input line 130.
  [5
 
 ] [6
@@ -1894,7 +1895,7 @@ LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 ] [9
 
 ]
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 167.
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 170.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
@@ -1902,10 +1903,16 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `txtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/txss/m/it' in size <8> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 167.
+LaTeX Font Info:    Font shape `T1/txss/m/n' will be
+(Font)              scaled to size 5.69998pt on input line 170.
+LaTeX Font Info:    Font shape `T1/txss/m/it' in size <9> not available
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 170.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 7.59998pt on input line 167.
+(Font)              scaled to size 8.54997pt on input line 170.
+LaTeX Font Info:    Font shape `T1/txss/m/it' in size <6> not available
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 170.
+LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
+(Font)              scaled to size 5.69998pt on input line 170.
  [10
 
 ] (/Users/michalurdanivia/Documents/GitHub/Cours-UGA-Econ-Python/Présentation/Introduction_Python.toc) [11
@@ -1929,27 +1936,27 @@ LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 \tf@snm=\write9
 \openout9 = `Introduction_Python.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 225.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 225.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 228.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 228.
  (/Users/michalurdanivia/Documents/GitHub/Cours-UGA-Econ-Python/Présentation/Introduction_Python.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 225.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 225.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 228.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 228.
 Package rerunfilecheck Info: File `Introduction_Python.out' has not changed.
 (rerunfilecheck)             Checksum: B9E26D09D1ED2EFD717C7605845A3261;153.
  ) 
 Here is how much of TeX's memory you used:
- 48791 strings out of 492649
- 1094991 string characters out of 6129621
- 1333095 words of memory out of 5000000
- 51711 multiletter control sequences out of 15000+600000
- 575550 words of font info for 119 fonts, out of 8000000 for 9000
+ 48858 strings out of 492649
+ 1095953 string characters out of 6129621
+ 1334551 words of memory out of 5000000
+ 51776 multiletter control sequences out of 15000+600000
+ 582098 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,11n,136p,10528b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on /Users/michalurdanivia/Documents/GitHub/Cours-UGA-Econ-Python/Présentation/Introduction_Python.pdf (15 pages, 41571 bytes).
+Output written on /Users/michalurdanivia/Documents/GitHub/Cours-UGA-Econ-Python/Présentation/Introduction_Python.pdf (15 pages, 43130 bytes).
 PDF statistics:
  157 PDF objects out of 1000 (max. 8388607)
  126 compressed objects within 2 object streams
  34 named destinations out of 1000 (max. 500000)
- 35919 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 40015 words of extra memory for PDF output out of 42996 (max. 10000000)
 

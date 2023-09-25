@@ -1,4 +1,4 @@
-\documentclass[notes, ignorenonframetext, compress, 9pt, xcolor=svgnames, aspectratio=169]{beamer} 
+\documentclass[notes, ignorenonframetext, compress, 10pt, xcolor=svgnames, aspectratio=169]{beamer} 
 \usepackage{pgfpages}
 \usepackage{pdfpages}
 % These slides also contain speaker notes. You can print just the slides,
@@ -14,6 +14,7 @@
 
 \setbeamercolor{sectionpage title}{bg=MidnightBlue}
 \setbeamertemplate{frametitle}[default][center]
+%\setbeamertemplate{headline}{\vskip2cm}
 %\setbeamertemplate{frametitle}{\color{MidnightBlue}\centering\bfseries\insertframetitle\par\vskip-6pt}
 \setbeamerfont{frametitle}{series=\bfseries}
 \setbeamerfont{title}{series=\bfseries}
@@ -207,7 +208,10 @@ linkbordercolor=linkequation,
 \providecommand{\plim}{\operatornamewithlimits{plim}}
 \providecommand{\avg}{\frac{1}{n} \underset{i=1}{\overset{n}{\sum}}}
 \providecommand{\sumin}{{\sum_{i=1}^n}}
+\providecommand{\sumiN}{{\sum_{i=1}^N}}
+\providecommand{\sumtT}{{\sum_{t=1}^T}}
 \providecommand{\limp}{\overset{p}{\rightarrow}}
+\providecommand{\liml}{\overset{L}{\rightarrow}}
 %\providecommand{\limp}{\underset{n \rightarrow \infty}{\overset{p}{\longrightarrow}}}
 %\providecommand{\limp}{\underset{n \rightarrow \infty}{\overset{p}{\longrightarrow}}}
 %\providecommand{\limp}{\overset{p}{\longrightarrow}}
@@ -215,6 +219,9 @@ linkbordercolor=linkequation,
 \providecommand{\limd}{\overset{d}{\rightarrow}}
 \providecommand{\limps}{\overset{p.s.}{\rightarrow}}
 \providecommand{\limlp}{\overset{L^p}{\rightarrow}}
+\providecommand{\limprob}{\overset{p}{\underset{N\to +\infty}{\longrightarrow}}}
+\providecommand{\limloi}{\overset{L}{\underset{N\to +\infty}{\longrightarrow}}}
+\providecommand{\limpsure}{\overset{p.s.}{\underset{N\to +\infty}{\longrightarrow}}}
 \def\independenT#1#2{\mathrel{\setbox0\hbox{$#1#2$}%
     \copy0\kern-\wd0\mkern4mu\box0}} 
 \newcommand\indep{\protect\mathpalette{\protect\independenT}{\perp}}
@@ -252,33 +259,33 @@ linkbordercolor=linkequation,
 %\newtheorem{ex}{Example}[section]
 %\newtheorem{hist}{History}[section]
 %\newtheorem*{ex*}{Example}
-\theoremstyle{plain}
-\newtheorem{propriete}{Propri\'et\'e}
-\renewcommand{\thepropriete}{P\arabic{propriete}}
+%\theoremstyle{plain}
+%\newtheorem{propriete}{Propri\'et\'e}
+%\renewcommand{\thepropriete}{P\arabic{propriete}}
 %\theoremstyle{definition}
 %\newtheorem{definition}{Définition}%[section]
-\theoremstyle{remark}
-\newtheorem{exemple}{Exemple}
-\newtheorem*{exemple*}{Exemple}
+%\theoremstyle{remark}
+%\newtheorem{exemple}{Exemple}
+%\newtheorem*{exemple*}{Exemple}
 
 \newtheorem{theoreme}{Théorème}
 \newtheorem{proposition}{Proposition}
 %\newtheorem{propriete}{Propri\'et\'e}
 \newtheorem{corollaire}{Corollaire}
 %\newtheorem{exemple}{Exemple}
-\newtheorem{assumption}{Assumption}
-\renewcommand{\theassumption}{A\arabic{assumption}}
+%\newtheorem{assumption}{Assumption}
+%\renewcommand{\theassumption}{A\arabic{assumption}}
 \newtheorem{hypothese}{Hypothèse}
 \renewcommand{\thehypothese}{H\arabic{hypothese}}
-\theoremstyle{definition}
+%\theoremstyle{definition}
 
 %\newtheorem{definitionx}{D\'efinition}%[section]
 %\newenvironment{definition}
  %{\pushQED{\qed}\renewcommand{\qedsymbol}{$\triangle$}\definitionx}
  %{\popQED\enddefinitionx}
 
-\newtheorem{condition}{Condition}
-\renewcommand{\thecondition}{C\arabic{condition}}
+%\newtheorem{condition}{Condition}
+%\renewcommand{\thecondition}{C\arabic{condition}}
 %\newcommand{\Var}{\mathbb{V}}
 %\newcommand{\Var}{\mathbf{Var}}
 %\newcommand{\Exp}{\mathbf{E}}
@@ -297,8 +304,10 @@ linkbordercolor=linkequation,
 \DeclareMathOperator{\indfun}{\mathbf{1}}
 \DeclareMathOperator{\Exp}{E}
 \DeclareMathOperator{\Expn}{\mathbb{E}_n}
+\DeclareMathOperator{\EL}{EL}
 \DeclareMathOperator{\Var}{Var}
 \DeclareMathOperator{\Vr}{V}
+\newcommand{\boldVr}{ {\boldsymbol \Vr} }
 \DeclareMathOperator{\Cov}{Cov}
 \DeclareMathOperator{\corr}{corr}
 \DeclareMathOperator{\perps}{\perp_s}
@@ -403,6 +412,7 @@ linkbordercolor=linkequation,
 \newcommand{\boldt}{ {\mathbf t} }
 \newcommand{\boldz}{ {\mathbf z} }
 \newcommand{\boldr}{ {\mathbf r} }
+\newcommand{\boldm}{ {\mathbf m} }
 
 \newcommand{\boldzero}{ {\mathbf 0} }
 \newcommand{\boldone}{ {\mathbf 1} }
@@ -410,16 +420,19 @@ linkbordercolor=linkequation,
 \newcommand{\boldalpha}{ {\boldsymbol \alpha} }
 \newcommand{\boldbeta}{ {\boldsymbol \beta} }
 \newcommand{\boldgamma}{ {\boldsymbol \gamma} }
+\newcommand{\boldGamma}{ {\boldsymbol \Gamma} }
 \newcommand{\boldtheta}{ {\boldsymbol \theta} }
 \newcommand{\boldxi}{ {\boldsymbol \xi} }
 \newcommand{\boldtau}{ {\boldsymbol \tau} }
 \newcommand{\boldepsilon}{ {\boldsymbol \epsilon} }
+\newcommand{\boldvepsilon}{ {\boldsymbol \varepsilon} }
 \newcommand{\boldmu}{ {\boldsymbol \mu} }
 \newcommand{\boldSigma}{ {\boldsymbol \Sigma} }
 \newcommand{\boldOmega}{ {\boldsymbol \Omega} }
 \newcommand{\boldPhi}{ {\boldsymbol \Phi} }
 \newcommand{\boldLambda}{ {\boldsymbol \Lambda} }
 \newcommand{\boldphi}{ {\boldsymbol \phi} }
+\newcommand{\boldeta}{ {\boldsymbol \eta} }
 
 \newcommand{\Sigmax}{ {\boldsymbol \Sigma_{\boldx}}}
 \newcommand{\Sigmau}{ {\boldsymbol \Sigma_{\boldu}}}
@@ -475,7 +488,7 @@ linkbordercolor=linkequation,
 \newcommand{\QQ}{\mathbbm Q}
 
 
-\newcommand{\XX}{\mathcal X}
+\newcommand{\XX}{\mathbbm X}
 
 \newcommand{\aA}{\mathcal A}
 \newcommand{\fF}{\mathscr F}
@@ -492,7 +505,7 @@ linkbordercolor=linkequation,
 \newcommand{\pP}{\mathscr P}
 \newcommand{\qQ}{\mathscr Q}
 \newcommand{\xX}{\mathcal X}
-
+\newcommand{\yY}{\mathcal Y}
 \newcommand{\ddD}{\mathscr D}
 
 
@@ -514,6 +527,38 @@ linkbordercolor=linkequation,
 
 \newcommand{\e}[1]{\mathbbm{E}[{#1}]}
 \newcommand{\p}[1]{\mathbbm{P}({#1})}
+
+% condition
+\theoremstyle{definition}
+\newtheorem{condition}{Condition}
+\renewcommand{\thecondition}{C\arabic{condition}}
+\BeforeBeginEnvironment{condition}{
+  \setbeamerfont{block title}{series=\bfseries}
+  \setbeamercolor{block title}{fg=MidnightBlue,bg=white}
+  \setbeamercolor{block body}{fg=black, bg=gray!10}
+}
+\newtheorem*{condition*}{Condition}
+\BeforeBeginEnvironment{condition*}{
+  \setbeamerfont{block title}{series=\bfseries}
+  \setbeamercolor{block title}{fg=MidnightBlue,bg=white}
+  \setbeamercolor{block body}{fg=black, bg=gray!10}
+}
+
+% assumption
+\theoremstyle{definition}
+\newtheorem{assumption}{Assumption}
+\BeforeBeginEnvironment{assumption}{
+  \setbeamerfont{block title}{series=\bfseries}
+  \setbeamercolor{block title}{fg=MidnightBlue,bg=white}
+  \setbeamercolor{block body}{fg=black, bg=gray!10}
+}
+\newtheorem*{assumption*}{Assumption}
+\BeforeBeginEnvironment{assumption*}{
+  \setbeamerfont{block title}{series=\bfseries}
+  \setbeamercolor{block title}{fg=MidnightBlue,bg=white}
+  \setbeamercolor{block body}{fg=black, bg=gray!10}
+}
+
 % definition
 \BeforeBeginEnvironment{definition}{
   \setbeamerfont{block title}{series=\bfseries}
@@ -528,6 +573,7 @@ linkbordercolor=linkequation,
 }
 
 % theorem
+\theoremstyle{plain}
 \BeforeBeginEnvironment{theorem}{
   \setbeamerfont{block body}{shape=\itshape}
   \setbeamerfont{block title}{series=\bfseries}
@@ -587,9 +633,54 @@ linkbordercolor=linkequation,
   \setbeamercolor{block body}{fg=black, bg=gray!10}
 }
 
+% exemple
+\theoremstyle{remark}
+\newtheorem{exemple}{Exemple}%[section]
+\BeforeBeginEnvironment{exemple}{
+  \setbeamerfont{block title}{series=\bfseries, shape=\itshape}
+  \setbeamercolor{block title}{fg=MidnightBlue,bg=white}
+  \setbeamercolor{block body}{fg=black, bg=gray!10}
+}
+\newtheorem*{exemple*}{}
+\BeforeBeginEnvironment{exemple*}{
+  \setbeamerfont{block title}{series=\bfseries, shape=\itshape}
+  \setbeamercolor{block title}{fg=MidnightBlue,bg=white}
+  \setbeamercolor{block body}{fg=black, bg=gray!10}
+}
 
 
+% propriete
+\theoremstyle{plain}
+\newtheorem{propriete}{Propri\'et\'e}%[section]
+\BeforeBeginEnvironment{propriete}{
+  \setbeamerfont{block body}{shape=\itshape}
+  \setbeamerfont{block title}{series=\bfseries, shape = \upshape}
+  \setbeamercolor{block title}{fg=MidnightBlue,bg=white}
+  \setbeamercolor{block body}{fg=black, bg=gray!10}
+}
+\newtheorem*{propriete*}{Propri\'et\'e}
+\BeforeBeginEnvironment{propriete*}{
+  \setbeamerfont{block body}{shape=\itshape}
+  \setbeamerfont{block title}{series=\bfseries, shape = \upshape}
+  \setbeamercolor{block title}{fg=MidnightBlue,bg=white}
+  \setbeamercolor{block body}{fg=black, bg=gray!10}
+}
 
 
-
+% remark
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}%[section]
+\BeforeBeginEnvironment{remark}{
+  \setbeamerfont{block body}{shape=\itshape}
+  \setbeamerfont{block title}{series=\bfseries}
+  \setbeamercolor{block title}{fg=MidnightBlue,bg=white}
+  \setbeamercolor{block body}{fg=black, bg=gray!10}
+}
+\newtheorem*{remark*}{Remark}
+\BeforeBeginEnvironment{remark*}{
+  \setbeamerfont{block body }{shape=\itshape}
+  \setbeamerfont{block title}{series=\bfseries}
+  \setbeamercolor{block title}{fg=MidnightBlue,bg=white}
+  \setbeamercolor{block body}{fg=black, bg=gray!10}
+}
 

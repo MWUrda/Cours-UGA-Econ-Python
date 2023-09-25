@@ -36,7 +36,7 @@
   {
     \ifnum \value{framenumber}>1
       \begin{frame}<beamer>
-      \frametitle{Plan}
+      \frametitle{PLAN}
       \tableofcontents[currentsection]
       \end{frame}
     \else
@@ -50,17 +50,21 @@
     \end{beamercolorbox}
     \end{centering}
 }
-
 %\titlegraphic{\includegraphics[width=1cm]{logoUGA2020.pdf}}
-\title[]{ \textbf{ Introduction à Python pour l'\'Economie Appliquée}}
-\subtitle{Présentation du cours}
+\title[]{ \textbf{INTRODUCTION À PYTHON POUR L'ÉCONOMIE APPLIQUÉE}\\(\textbf{UGA, L3, S2})}
+\subtitle{PRÉSENTATION}
 \date{\today}
 \author{Michal W. Urdanivia\inst{*}}
-\institute{\inst{*}UGA, Facult\'e d'\'Economie, GAEL, \\e-mail: \href{mailto:michal.wong-urdanivia@univ-grenoble-alpes.fr}{michal.wong-urdanivia@univ-grenoble-alpes.fr}}
+\institute{\inst{*}UGA, Facult\'e d'\'Economie, GAEL, \\
+e-mail:
+ \href{
+     mailto:michal.wong-urdanivia@univ-grenoble-alpes.fr}{michal.wong-urdanivia@univ-grenoble-alpes.fr}}
 
 %\titlegraphic{\includegraphics[width=1cm]{logoUGA2020.pdf}
 %}
+
 \begin{document}
+
 %%% TIKZ STUFF
 \usetikzlibrary{positioning}
 \usetikzlibrary{snakes}
@@ -69,13 +73,15 @@
 \usetikzlibrary{decorations.markings}
 \usetikzlibrary{shapes.misc}
 \usetikzlibrary{matrix,shapes,arrows,fit,tikzmark}
+\usetikzlibrary{matrix,chains,positioning,decorations.pathreplacing,arrows}
 \usetikzlibrary{shapes}
+\usetikzlibrary{shapes.geometric, arrows}
 \tikzset{   
         every picture/.style={remember picture,baseline},
         every node/.style={anchor=base,align=center,outer sep=1.5pt},
         every path/.style={thick},
         }
-\newcommand\marktopleft[1]{%
+\newcommand\marktopleft[1]{
     \tikz[overlay,remember picture] 
         \node (marker-#1-a) at (-.3em,.3em) {};%
 }
@@ -88,12 +94,10 @@
 \tikzstyle{fancytitle} =[draw=black,fill=red, text=white]
 \tikzstyle{observed}=[draw,circle,fill=gray!50]
 
-
-
 \begin{frame}
 \titlepage
 \end{frame}
-\begin{frame}{Plan}
+\begin{frame}
  \tableofcontents
     \end{frame}
 %\begin{frame}
@@ -106,7 +110,6 @@
 %\begin{frame}
 %  \tableofcontents  
 %\end{frame}
-
 \section{Objectifs}
 \frame{\sectionpage}
 

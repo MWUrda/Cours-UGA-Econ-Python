@@ -16,11 +16,11 @@ def import_data():
     """
     
     # Import listings data
-    url_listings = "http://data.insideairbnb.com/france/ile-de-france/paris/2023-09-04/data/listings.csv.gz"
+    url_listings = "https://data.insideairbnb.com/france/nouvelle-aquitaine/bordeaux/2025-06-15/visualisations/listings.csv"
     df_listings = pd.read_csv(url_listings)
 
     # Import pricing data
-    url_prices = "http://data.insideairbnb.com/france/ile-de-france/paris/2023-09-04/data/calendar.csv.gz"
+    url_prices = "https://data.insideairbnb.com/france/nouvelle-aquitaine/bordeaux/2025-06-15/data/calendar.csv.gz"
     df_prices = pd.read_csv(url_prices, compression="gzip")
 
     # Cleaning prices data

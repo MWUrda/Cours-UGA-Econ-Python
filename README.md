@@ -15,3 +15,5 @@ Matériel pour le cours d'introduction à Python en écononomie en L3 à l'UGA, 
    a. Téléchargez *Anaconda Individual Edition* (dernière version) depuis [https://www.anaconda.com/products/individual].
    
    b. Lancez le programme d'installation (les paramètres par défaut conviennent)
+
+   - Remarque: en cas de problème, effectuez une [désinstallation](https://www.anaconda.com/docs/getting-started/anaconda/uninstall)                 complète. Installez une version antérieure d'Anaconda depuis les [archives](https://repo.anaconda.com/archive/).

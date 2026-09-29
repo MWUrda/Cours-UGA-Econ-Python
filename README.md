@@ -44,4 +44,34 @@ Matériel pour le cours d'introduction à Python en écononomie en L3 à l'UGA, 
    - Remarque: Pour MaC rendez-vous sur cette [page](https://git-scm.com/install/mac). Le plus simple est de télécharger                   [Homebrew](https://brew.sh/), puis de saisir la commande suivante dans le terminal : *brew install git* (lorsqu'un mot de             passe vous est demandé, tapez-le et appuyez sur Entrée ; rien ne s'affiche à l'écran tant que vous n'avez pas appuyé sur              *Entrée*).
 
    2.3. Exécutez le programme d'installation (les paramètres par défaut conviennent).
- 
+
+3. **VSCode**
+
+   3.1. Téléchargez VSCode sur (https://code.visualstudio.com/)
+
+   3.2. Lancez le programme d'installation (les paramètres par défaut conviennent)
+
+   3.3. Ouvrez VSCode
+
+   3.4. Appuyez sur *Ctrl+Maj+X* (ou sélectionnez « Extensions » dans la barre d'activité située à gauche)
+
+      - Sur Mac : *Cmd⌘+Maj+X*
+
+   3.5. Installez l'extension Python
+
+   3.6. Appuyez sur *Ctrl+Maj+P* pour ouvrir la palette de commandes
+
+      - Sur Mac : *Cmd⌘+Maj+P*
+
+   3.7. Tapez « Python: Select Interpreter » et choisissez l'option incluant « Anaconda3 » dans le chemin d'accès
+
+   3.8. Appuyez sur *Ctrl+æ (ou Ctrl+` ou Ctrl+j)* pour ouvrir le terminal dans VSCode
+
+      - Sur Mac : *Cmd⌘+Maj+C* (ouvre le terminal de l'ordinateur)
+
+   3.9. Exécutez la commande : *git config --global user.email "VOTRE E-MAIL"*
+
+   3.10. Exécutez la commande : *git config --global user.name "VOTRE NOM D'UTILISATEUR GITHUB"*
+         (Notez que ces deux dernières étapes ne généreront aucun affichage en retour)
+
+

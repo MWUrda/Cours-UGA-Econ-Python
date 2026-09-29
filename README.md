@@ -11,3 +11,5 @@ Matériel pour le cours d'introduction à Python en écononomie en L3 à l'UGA, 
                spéciaux (æ, ø, å, ê, â, î, ô, û, ä, ö, ë, ï, ü, ÿ, etc.). La ​​solution la plus simple consiste à modifier
                votre nom   d'utilisateur (sinon, vous devrez installer Anaconda dans un répertoire dont le chemin ne contient pas
                votre nom d'utilisateur).
+1.a. Téléchargez *Anaconda Individual Edition* (dernière version) depuis [https://www.anaconda.com/products/individual].
+     Lancez le programme d'installation (les paramètres par défaut conviennent)

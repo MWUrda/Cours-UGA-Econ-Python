@@ -20,3 +20,21 @@ Matériel pour le cours d'introduction à Python en écononomie en L3 à l'UGA, 
    b. Lancez le programme d'installation (les paramètres par défaut conviennent)
 
    - Remarque: en cas de problème, effectuez une [désinstallation](https://www.anaconda.com/docs/getting-started/anaconda/uninstall)                 complète. Installez une version antérieure d'Anaconda depuis les [archives](https://repo.anaconda.com/archive/).
+   
+   1.2. **Extensions**.
+
+   a. Ouvrez le programme Anaconda Prompt (Windows) ou le Terminal (Mac) (sur Mac, le terminal est une application déjà présente sur        votre ordinateur et indépendante d'Anaconda, mais vous devez tout de même installer Anaconda pour que les commandes ci-dessous        y fonctionnent).
+
+   b. Exécutez les commandes suivantes une par une en suivant les instructions(vous pouvez faire des "copier-coller" :
+
+   conda update --all
+
+   conda install -c conda-forge nodejs
+
+   conda install -c conda-forge ipympl
+
+   conda install -c conda-forge ipywidgets
+
+   
+
+ 

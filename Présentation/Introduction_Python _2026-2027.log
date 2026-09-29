@@ -2,8 +2,8 @@ This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"Introduction_Python _2025-2026.tex"
-(./Introduction_Python _2025-2026.tex
+**"Introduction_Python _2026-2027.tex"
+(./Introduction_Python _2026-2027.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1521,8 +1521,8 @@ soldpgfsupp_pgflibraryintersections.code.tex
 \pgf@intersect@solutions=\count383
 ))))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplo
-ts.decorations.softclip.code.tex)) (./Introduction_Python _2025-2026.aux)
-\openout1 = `"Introduction_Python _2025-2026.aux"'.
+ts.decorations.softclip.code.tex)) (./Introduction_Python _2026-2027.aux)
+\openout1 = `"Introduction_Python _2026-2027.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 67.
 LaTeX Font Info:    Try loading font information for OML+txmi on input line 67.
@@ -1649,9 +1649,9 @@ LaTeX Info: Redefining \ref on input line 67.
 LaTeX Info: Redefining \pageref on input line 67.
 LaTeX Info: Redefining \nameref on input line 67.
 
-(./Introduction_Python _2025-2026.out) (./Introduction_Python _2025-2026.out)
+(./Introduction_Python _2026-2027.out) (./Introduction_Python _2026-2027.out)
 \@outlinefile=\write6
-\openout6 = `"Introduction_Python _2025-2026.out"'.
+\openout6 = `"Introduction_Python _2026-2027.out"'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/txr/m/n --> OT1/cmss/m/n on input line 67.
@@ -1752,7 +1752,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.16}).
 
-(./Introduction_Python _2025-2026.nav)
+(./Introduction_Python _2026-2027.nav)
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 4.74998pt on input line 67.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
@@ -1822,10 +1822,10 @@ LaTeX Font Info:    Font shape `T1/txss/m/n' will be
  [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./Introduction_Python _2025-2026.toc) [2
+(./Introduction_Python _2026-2027.toc) [2
 
 ]
-(./Introduction_Python _2025-2026.toc) [3
+(./Introduction_Python _2026-2027.toc) [3
 
 ] [4
 
@@ -1837,7 +1837,7 @@ LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 ] [6
 
 ]
-(./Introduction_Python _2025-2026.toc) [7
+(./Introduction_Python _2026-2027.toc) [7
 
 ] [8
 
@@ -1867,7 +1867,7 @@ LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
  [10
 
 ]
-(./Introduction_Python _2025-2026.toc) [11
+(./Introduction_Python _2026-2027.toc) [11
 
 ] [12
 
@@ -1880,21 +1880,21 @@ LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 
 ]
 \tf@nav=\write7
-\openout7 = `"Introduction_Python _2025-2026.nav"'.
+\openout7 = `"Introduction_Python _2026-2027.nav"'.
 
 \tf@toc=\write8
-\openout8 = `"Introduction_Python _2025-2026.toc"'.
+\openout8 = `"Introduction_Python _2026-2027.toc"'.
 
 \tf@snm=\write9
-\openout9 = `"Introduction_Python _2025-2026.snm"'.
+\openout9 = `"Introduction_Python _2026-2027.snm"'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 229.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
 
-(./Introduction_Python _2025-2026.aux)
+(./Introduction_Python _2026-2027.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
-Package rerunfilecheck Info: File `"Introduction_Python _2025-2026".out' has no
+Package rerunfilecheck Info: File `"Introduction_Python _2026-2027".out' has no
 t changed.
 (rerunfilecheck)             Checksum: B9E26D09D1ED2EFD717C7605845A3261;153.
  ) 
@@ -1911,7 +1911,7 @@ exlive/2018/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive
 /2018/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2018/t
 exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-di
 st/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on "Introduction_Python _2025-2026.pdf" (15 pages, 44737 bytes).
+Output written on "Introduction_Python _2026-2027.pdf" (15 pages, 44737 bytes).
 
 PDF statistics:
  173 PDF objects out of 1000 (max. 8388607)

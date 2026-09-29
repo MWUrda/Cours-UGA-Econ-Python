@@ -40,8 +40,8 @@ Matériel pour le cours d'introduction à Python en écononomie en L3 à l'UGA, 
    2.1. Rendez-vous sur [https://github.com/] et inscrivez-vous.
 
    2.2. Téléchargez *Git* depuis [https://git-scm.com/]
-
-        - Remarque: Pour MaC rendez-vous sur cette [page](https://git-scm.com/install/mac). Le plus simple est de télécharger                   [Homebrew](https://brew.sh/), puis de saisir la commande suivante dans le terminal : *brew install git* (lorsqu'un mot de             passe vous est demandé, tapez-le et appuyez sur Entrée ; rien ne s'affiche à l'écran tant que vous n'avez pas appuyé sur              *Entrée*).
+ 
+   - Remarque: Pour MaC rendez-vous sur cette [page](https://git-scm.com/install/mac). Le plus simple est de télécharger                   [Homebrew](https://brew.sh/), puis de saisir la commande suivante dans le terminal : *brew install git* (lorsqu'un mot de             passe vous est demandé, tapez-le et appuyez sur Entrée ; rien ne s'affiche à l'écran tant que vous n'avez pas appuyé sur              *Entrée*).
 
    2.3. Exécutez le programme d'installation (les paramètres par défaut conviennent).
  
